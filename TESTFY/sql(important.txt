@@ -1,0 +1,5 @@
+SELECT TIMESTAMPDIFF(MINUTE,ParkingTime,CURRENT_TIME) FROM table1 WHERE PlateNumber = 'AAA1111'
+
+SELECT PlateNumber,ParkingTime,DriveOutTime,ParkingTimeTotal,ParkingTimeTotal*10 AS totalfee FROM demotable665
+
+SELECT PlateNumber,ParkingFee,ParkingTimeTotal FROM carparking WHERE PlateNumber ='$PlateNumberInput ' ";
